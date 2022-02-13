@@ -1,26 +1,22 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Head from 'next/head';
+import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div className='flex items-center justify-center h-screen'>
+    <div className='flex h-screen items-center justify-center'>
       <Head>
         <title>Alaa</title>
-        <meta name="description" content="Alla Portfolio" />
-        <link rel="icon" href="/favicon.ico" />
+        <meta name='description' content='Alla Portfolio' />
+        <link rel='icon' href='/favicon.ico' />
       </Head>
 
       <main>
         <h1 className='text-5xl font-medium leading-tight'>
           Welcome to Alla website!
         </h1>
-
-  
       </main>
 
-      <footer>
-
-      </footer>
+      <footer></footer>
     </div>
-  )
+  );
 }

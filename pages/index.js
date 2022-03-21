@@ -11,7 +11,7 @@ export default function Home() {
 
       <div className='flex h-screen items-center justify-center'>
         <main>
-          <h1 className='text-5xl font-medium leading-tight'>
+          <h1 className='bg-gray-70 text-5xl font-medium leading-tight'>
             Welcome to Alla website!
           </h1>
         </main>

@@ -122,7 +122,7 @@ export default function AnimatedCanvas() {
     };
     createParticles();
     animate();
-  });
+  }, []);
 
   return (
     <canvas

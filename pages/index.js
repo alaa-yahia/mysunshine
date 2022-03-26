@@ -6,8 +6,16 @@ export default function Home() {
   return (
     <>
       <Head />
-      <Header />
-      <Hero />
+      <div
+        className='h-screen text-white'
+        style={{
+          background: `rgb(246,238,242)`,
+          background: `radial-gradient(circle, rgb(168, 66, 227,1) 10%, rgba(212, 38, 185,1) 100%)`,
+        }}
+      >
+        <Header />
+        <Hero />
+      </div>
 
       <div className='flex h-screen items-center justify-center'>
         <main>

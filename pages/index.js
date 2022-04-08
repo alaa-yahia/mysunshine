@@ -10,7 +10,7 @@ export default function Home() {
         className='h-screen text-white'
         style={{
           background: `rgb(246,238,242)`,
-          background: `radial-gradient(circle, rgb(168, 66, 227,1) 10%, rgba(212, 38, 185,1) 100%)`,
+          background: `linear-gradient(90deg ,rgba(58, 45, 239,1) 0%,rgba(255, 0, 255,1)100% )`,
         }}
       >
         <Header />

@@ -1,36 +1,23 @@
 import React from 'react';
-import AnimatedCanvas from './AnimatedCanvas';
+import SvgLogo from './SvgLogo';
 
 export default function Hero() {
   return (
-    <div className=' h-full w-full'>
-      <div
-        className='bottom-4 mt-6 flex h-full  w-full border-white'
-        style={{
-          background: `rgb(246,238,242)`,
-
-          background: `linear-gradient(
-           0deg,
-            rgba(255, 235, 254, .8) 32.99%,
-            rgba(249, 255, 255, 0.3) 80%,
-            rgba(249, 247, 255, 0) 100%
-            )`,
-        }}
-      >
-        <div className='h-10 w-20 bg-white'>ff</div>
-        <div
-          className=' h-1/2 w-3/4 bg-white bg-opacity-5 text-3xl shadow-lg'
-          style={{
-            background: `linear-gradient(45deg ,rgba(255, 0, 255,1) 0%,rgba(58, 45, 239,1)100% )`,
-          }}
-        >
-          Hello I&apos;m Alaa
-          <br />A web application developer interseted in user experience
+    <div className='relative mx-8 flex flex-1 items-center justify-center'>
+      {/*    <div className='absolute z-0  flex h-full w-full flex-col justify-around'>
+        <div className='flex flex-col space-y-4'>
+          <div className='h-10 bg-black/70'></div>
+          <div className='h-10 bg-white/50'></div>
         </div>
-        <div className='h-10 flex-1 bg-white'>ff</div>
+        <div className='h-10 bg-white/80'></div>
+      </div> */}
+      <SvgLogo className='h-80 w-80' />
+      <div className='z-10 flex h-5/6 w-10/12  justify-center bg-bg-light p-3'>
+        <div>
+          <p className='text-4xl text-hero-font '>Hello I&apos;m Alaa</p>
+          <p>A web application developer interseted in user experience</p>
+        </div>
       </div>
-
-      {/* <AnimatedCanvas /> */}
     </div>
   );
 }

@@ -4,6 +4,7 @@ const Head = ({ title, keywords, description, url, ogType, img }) => {
   return (
     <NextHead>
       <title>{title}</title>
+      <meta name='viewport' content='viewport-fit=cover' />
       <meta name='keywords' content={keywords} />
       <meta name='description' content={description} />
       <meta property='og:title' content={title} />

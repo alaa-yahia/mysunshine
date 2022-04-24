@@ -6,13 +6,7 @@ export default function Home() {
   return (
     <>
       <Head />
-      <div
-        className='h-screen text-white'
-        style={{
-          background: `rgb(246,238,242)`,
-          background: `linear-gradient(90deg ,rgba(58, 45, 239,1) 0%,rgba(255, 0, 255,1)100% )`,
-        }}
-      >
+      <div className=' flex h-screen flex-col bg-bg-light text-xl font-bold text-font-light dark:bg-bg-dark dark:text-font-dark'>
         <Header />
         <Hero />
       </div>

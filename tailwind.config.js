@@ -14,7 +14,8 @@ module.exports = {
         'font-light': '#808080',
         'font-dark': '#F5F5F5',
         'hero-font': '#292929',
-        DarkGreen: '#026440',
+        darkGreen: '#026440',
+        brown: '#dd3c3c',
       },
       fontSize: {
         xl: ['20px', '48px'],

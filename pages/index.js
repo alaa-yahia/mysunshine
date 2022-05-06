@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Head />
-      <div className=' flex h-screen flex-col bg-bg-light text-xl font-bold text-font-light dark:bg-bg-dark dark:text-font-dark'>
+      <div className=' h-screen  bg-bg-light px-10 text-xl font-bold text-font-light dark:bg-bg-dark dark:text-font-dark'>
         <Header />
         <Hero />
       </div>

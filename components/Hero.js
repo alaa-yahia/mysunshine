@@ -11,7 +11,7 @@ export default function Hero() {
         </div>
         <div className='h-10 bg-white/80'></div>
       </div> */}
-      <SvgLogo className='h-80 w-80' />
+      {/* <SvgLogo className='h-80 w-80' /> */}
       <div className='z-10 flex h-5/6 w-10/12  justify-center bg-bg-light p-3'>
         <div>
           <p className='text-4xl text-hero-font '>Hello I&apos;m Alaa</p>
